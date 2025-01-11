@@ -1,0 +1,116 @@
+body{
+    height: 100vh;
+
+}
+ul {
+    margin:10px;
+    float: center;  
+}
+li{
+    display: inline;
+    padding:10px;
+    text-align:center;
+    
+}
+li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    
+}
+.search{
+    float: right;
+    font-size:20px;
+}
+
+h1{
+    text-align: center;
+}
+.button{
+    padding: 20px;
+    text-align: center;
+}
+.first{
+        display: flex;
+        flex-direction:row;
+        margin:10px;
+        grid-template-columns: 80px 20px;
+        text-align:right;
+
+}
+
+
+.img{
+    float:right;
+    display: flex;
+}
+.contain {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 10px;
+    
+}
+
+
+.text {
+    width: 50%;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    float: left;
+}
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: dodgerblue;
+    padding: 10px;
+  }
+  .grid-container > div {
+    background-color: #f1f1f1;
+    border: 1px solid black;
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+  }
+  .container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 20px;
+    margin: 0px;;
+    border-radius: 10px;
+    column-gap: 20px;
+    row-gap: 20px;
+  }
+  .container > div {
+    background-color: white;
+    border: 1px solid black;
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+  }
+  .footcont {
+    padding: 32px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.footinf { 
+   color: #475569; 
+    font-size: 14px; 
+    font-weight: 500; 
+    display:inline; 
+} 
+
+.vsimg{
+  width: 24px;
+  height: 24px;
+}
+.image{
+  float:center;
+  margin:30px;
+}
+
+
